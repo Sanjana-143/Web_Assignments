@@ -1,0 +1,139 @@
+```css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f5fb;
+    color: #263238;
+    line-height: 1.6;
+}
+
+.hero {
+    text-align: center;
+    padding: 45px 20px;
+    background: linear-gradient(135deg, #3730a3, #818cf8);
+    color: white;
+}
+
+.hero h1 {
+    margin: 0 0 10px;
+    font-size: 2.3rem;
+}
+
+.hero p {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 950px;
+    margin: 30px auto;
+}
+
+.card {
+    background: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 14px;
+    border: 1px solid #e0e7ff;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+    color: #4338ca;
+    margin-top: 0;
+}
+
+.card h3 {
+    margin-top: 22px;
+    color: #374151;
+}
+
+label {
+    display: block;
+    margin: 14px 0;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    margin-top: 6px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: 2px solid #a5b4fc;
+    border-color: #4f46e5;
+}
+
+button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 7px;
+    background-color: #4f46e5;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3730a3;
+}
+
+.result {
+    margin-top: 18px;
+    padding: 14px;
+    background-color: #eef2ff;
+    border-radius: 8px;
+    color: #312e81;
+    overflow-wrap: anywhere;
+}
+
+pre {
+    padding: 14px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 7px;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    font-family: Consolas, monospace;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #e0e7ff;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 1.7rem;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+```
