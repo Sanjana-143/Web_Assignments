@@ -5,50 +5,40 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f3f5fb;
-    color: #263238;
     line-height: 1.6;
+    color: #243047;
+    background: #f3f6fb;
 }
 
 .hero {
+    padding: 30px 20px;
     text-align: center;
-    padding: 45px 20px;
     color: white;
-    background: linear-gradient(135deg, #3730a3, #818cf8);
+    background: #243b55;
 }
 
 .hero h1 {
-    margin: 0 0 10px;
-    font-size: clamp(1.8rem, 5vw, 2.7rem);
-}
-
-.hero p {
     margin: 0;
 }
 
 .container {
-    width: 90%;
-    max-width: 950px;
+    width: 92%;
+    max-width: 900px;
     margin: 30px auto;
 }
 
 .card {
-    background: white;
-    margin-bottom: 25px;
-    padding: 25px;
+    margin-bottom: 24px;
+    padding: 24px;
     border: 1px solid #e0e7ff;
-    border-radius: 14px;
-    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
 }
 
 .card h2 {
     margin-top: 0;
-    color: #4338ca;
-}
-
-.card h3 {
-    color: #374151;
-    margin-top: 22px;
+    color: #1d4ed8;
 }
 
 label {
@@ -60,83 +50,58 @@ label {
 input {
     display: block;
     width: 100%;
-    padding: 11px;
-    margin-top: 6px;
+    max-width: 420px;
+    margin-top: 5px;
+    padding: 10px;
     border: 1px solid #cbd5e1;
-    border-radius: 7px;
-    font-size: 1rem;
-}
-
-input:focus {
-    outline: 2px solid #a5b4fc;
-    border-color: #4f46e5;
+    border-radius: 6px;
+    font: inherit;
 }
 
 button {
-    padding: 12px 18px;
     margin-top: 10px;
-    border: none;
-    border-radius: 7px;
-    background: #4f46e5;
+    padding: 11px 16px;
+    border: 0;
+    border-radius: 6px;
+    background: #2563eb;
     color: white;
-    font-size: 1rem;
+    font: inherit;
     font-weight: bold;
     cursor: pointer;
 }
 
 button:hover {
-    background: #3730a3;
+    background: #1e40af;
 }
 
 .result {
-    padding: 14px;
-    margin-top: 18px;
-    background: #eef2ff;
-    border-radius: 8px;
-    color: #312e81;
     overflow-wrap: anywhere;
+    padding: 12px;
+    border-radius: 6px;
+    background: #eff6ff;
 }
 
 pre {
-    padding: 14px;
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    border-radius: 7px;
+    overflow-x: auto;
+    padding: 12px;
+    border-radius: 6px;
+    background: #f1f5f9;
     white-space: pre-wrap;
-    overflow-wrap: anywhere;
-    font-family: Consolas, monospace;
-}
-
-code {
-    padding: 2px 5px;
-    background: #eef2ff;
-    border-radius: 4px;
 }
 
 footer {
-    padding: 20px;
+    padding: 18px;
+    background: #17283d;
+    color: white;
     text-align: center;
-    background: #e0e7ff;
-}
-
-footer p {
-    margin: 0;
 }
 
 @media (max-width: 600px) {
-    .hero h1 {
-        font-size: 1.7rem;
-    }
-
     .container {
         width: 94%;
     }
 
     .card {
         padding: 18px;
-    }
-
-    button {
-        width: 100%;
     }
 }
